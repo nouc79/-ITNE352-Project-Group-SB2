@@ -42,7 +42,8 @@ The main functionalities include handling user input, sending requests to the se
 
 3. **client_gui.py:** I made a client_gui.py. It is the client with a graphical user interface using tkinter. Instead of typing in the terminal, the user can click buttons to get arrived flights, delayed flights, or details of a flight by entering the flight code. The result shows in a text box. This makes the program easier to use and more user-friendly.
 
-# Additional concept : I used the Graphical User Interface (GUI). We didn’t study this in class, so I learned how to use tkinter from YouTube. The GUI allows the user to interact with the system in a visual way, using buttons and input fields.
+# Additional concept : 
+I used the Graphical User Interface (GUI). We didn’t study this in class, so I learned how to use tkinter from YouTube. The GUI allows the user to interact with the system in a visual way, using buttons and input fields.
 
 # Acknowledgments :
 We would like to extend our heartfelt thanks to Dr. Mohammed Almeer for his immense contributions to our project. His valuable knowledge, guidance, and unwavering support have been instrumental in our success, and we are truly grateful for his generosity in sharing his expertise with us.
