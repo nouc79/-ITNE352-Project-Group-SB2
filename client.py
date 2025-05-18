@@ -1,4 +1,5 @@
 # Done by: Fatima Ahmed Ahmed Mohsen - 202209641
+# ITNE352 Project - Client Script (Group SB2)
 
 import socket
 
