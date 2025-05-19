@@ -35,12 +35,18 @@ Alternatively, you can run the GUI client by typing (client_gui.py). The client 
 
 # The scripts :
 Our project includes three Python scripts (server.py) to handle flight data and client connections, (client.py) for the basic terminal client, and (client_gui.py) which has a simple graphical interface using tkinter. Each client script (client.py or client_gui.py) can be used separately to connect to the server and interact with the system.
-1. **server.py script:**
+1. **server.py script:** : The server.py script is the backend part of our flight tracking system. It uses the aviationstack API to fetch live flight arrival data and works as a multi-threaded TCP server.When the script runs, it asks for an ICAO airport code like OMDB or EGLL. It then collects flight data and saves it to a file called group_SB2.json. After that, it starts listening on port 5050 and can handle multiple client connections at the same time using Python’s threading.
+Clients can send these commands to get the info they need:
+	•	"arrived" – shows a list of flights that have landed
+	•	"delayed" – shows delayed flights with estimated arrival times
+	•	"details <flight_code>" – gives full details for a specific flight using its IATA code
+Each client is handled in a separate thread, and all actions are logged. This script is the main part that makes the client apps work properly.
    
-2. **client.py script:** The client script is a terminal-based program that allows users to connect to a server and request flight information It Python socket library to create a TCP socket for communication with the server. When the script starts it asks the user to enter a username and then establishes a connection to the server at the local host IP 127.0.0.1 on port 5050. After connecting it shows a simple menu with four options: view arrived flights, view delayed flights, check details of a specific flight using its IATA code or quit. Based on the user's choice the client sends the appropriate request to the server and displays the response it gets. The script keeps running in a loop until the user chooses to quit.
+   
+3. **client.py script:** The client script is a terminal-based program that allows users to connect to a server and request flight information It Python socket library to create a TCP socket for communication with the server. When the script starts it asks the user to enter a username and then establishes a connection to the server at the local host IP 127.0.0.1 on port 5050. After connecting it shows a simple menu with four options: view arrived flights, view delayed flights, check details of a specific flight using its IATA code or quit. Based on the user's choice the client sends the appropriate request to the server and displays the response it gets. The script keeps running in a loop until the user chooses to quit.
 The main functionalities include handling user input, sending requests to the server, receiving and displaying server responses, and managing the socket connection.
 
-3. **client_gui.py:** I made a client_gui.py. It is the client with a graphical user interface using tkinter. Instead of typing in the terminal, the user can click buttons to get arrived flights, delayed flights, or details of a flight by entering the flight code. The result shows in a text box. This makes the program easier to use and more user-friendly.
+4. **client_gui.py:** I made a client_gui.py. It is the client with a graphical user interface using tkinter. Instead of typing in the terminal, the user can click buttons to get arrived flights, delayed flights, or details of a flight by entering the flight code. The result shows in a text box. This makes the program easier to use and more user-friendly.
 
 # Additional concept : 
 I used the Graphical User Interface (GUI). We didn’t study this in class, so I learned how to use tkinter from YouTube. The GUI allows the user to interact with the system in a visual way, using buttons and input fields.
