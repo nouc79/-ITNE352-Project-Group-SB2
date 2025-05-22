@@ -3,12 +3,12 @@
     "limit": 100,
     "offset": 0,
     "count": 100,
-    "total": 4445
+    "total": 4607
   },
   "data": [
     {
       "flight_date": "2025-05-23",
-      "flight_status": "scheduled",
+      "flight_status": "active",
       "departure": {
         "airport": "Haneda Airport",
         "timezone": "Asia/Tokyo",
@@ -16,7 +16,7 @@
         "icao": "RJTT",
         "terminal": "3",
         "gate": "108B",
-        "delay": 25,
+        "delay": 15,
         "scheduled": "2025-05-23T00:20:00+00:00",
         "estimated": "2025-05-23T00:20:00+00:00",
         "actual": null,
@@ -47,6 +47,271 @@
         "number": "41",
         "iata": "JL41",
         "icao": "JAL41",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "JA838J",
+        "iata": "B788",
+        "icao": "B788",
+        "icao24": "86DA1E"
+      },
+      "live": {
+        "updated": "2025-05-22T15:44:33+00:00",
+        "latitude": 35.5432,
+        "longitude": 139.777,
+        "altitude": 0,
+        "direction": 157.5,
+        "speed_horizontal": 21.312,
+        "speed_vertical": 0,
+        "is_ground": false
+      }
+    },
+    {
+      "flight_date": "2025-05-23",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Bole International",
+        "timezone": "Africa/Addis_Ababa",
+        "iata": "ADD",
+        "icao": "HAAB",
+        "terminal": "2",
+        "gate": "A19",
+        "delay": null,
+        "scheduled": "2025-05-23T00:45:00+00:00",
+        "estimated": "2025-05-23T00:45:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Heathrow",
+        "timezone": "Europe/London",
+        "iata": "LHR",
+        "icao": "EGLL",
+        "terminal": "2",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-05-23T07:00:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Air Canada",
+        "iata": "AC",
+        "icao": "ACA"
+      },
+      "flight": {
+        "number": "6023",
+        "iata": "AC6023",
+        "icao": "ACA6023",
+        "codeshared": {
+          "airline_name": "ethiopian airlines",
+          "airline_iata": "et",
+          "airline_icao": "eth",
+          "flight_number": "700",
+          "flight_iata": "et700",
+          "flight_icao": "eth700"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-05-23",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Dubai",
+        "timezone": "Asia/Dubai",
+        "iata": "DXB",
+        "icao": "OMDB",
+        "terminal": "1",
+        "gate": "D21",
+        "delay": null,
+        "scheduled": "2025-05-23T01:05:00+00:00",
+        "estimated": "2025-05-23T01:05:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Heathrow",
+        "timezone": "Europe/London",
+        "iata": "LHR",
+        "icao": "EGLL",
+        "terminal": "5",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-05-23T05:50:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "British Airways",
+        "iata": "BA",
+        "icao": "BAW"
+      },
+      "flight": {
+        "number": "106",
+        "iata": "BA106",
+        "icao": "BAW106",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-05-23",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Dubai",
+        "timezone": "Asia/Dubai",
+        "iata": "DXB",
+        "icao": "OMDB",
+        "terminal": "1",
+        "gate": "D21",
+        "delay": null,
+        "scheduled": "2025-05-23T01:05:00+00:00",
+        "estimated": "2025-05-23T01:05:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Heathrow",
+        "timezone": "Europe/London",
+        "iata": "LHR",
+        "icao": "EGLL",
+        "terminal": "5",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-05-23T05:50:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "American Airlines",
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "flight": {
+        "number": "7077",
+        "iata": "AA7077",
+        "icao": "AAL7077",
+        "codeshared": {
+          "airline_name": "british airways",
+          "airline_iata": "ba",
+          "airline_icao": "baw",
+          "flight_number": "106",
+          "flight_iata": "ba106",
+          "flight_icao": "baw106"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-05-23",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Dubai",
+        "timezone": "Asia/Dubai",
+        "iata": "DXB",
+        "icao": "OMDB",
+        "terminal": "1",
+        "gate": "D21",
+        "delay": null,
+        "scheduled": "2025-05-23T01:05:00+00:00",
+        "estimated": "2025-05-23T01:05:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Heathrow",
+        "timezone": "Europe/London",
+        "iata": "LHR",
+        "icao": "EGLL",
+        "terminal": "5",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-05-23T05:50:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Iberia",
+        "iata": "IB",
+        "icao": "IBE"
+      },
+      "flight": {
+        "number": "3536",
+        "iata": "IB3536",
+        "icao": "IBE3536",
+        "codeshared": {
+          "airline_name": "british airways",
+          "airline_iata": "ba",
+          "airline_icao": "baw",
+          "flight_number": "106",
+          "flight_iata": "ba106",
+          "flight_icao": "baw106"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-05-23",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Dubai",
+        "timezone": "Asia/Dubai",
+        "iata": "DXB",
+        "icao": "OMDB",
+        "terminal": "1",
+        "gate": "D2",
+        "delay": null,
+        "scheduled": "2025-05-23T01:00:00+00:00",
+        "estimated": "2025-05-23T01:00:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Heathrow",
+        "timezone": "Europe/London",
+        "iata": "LHR",
+        "icao": "EGLL",
+        "terminal": "4",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-05-23T06:20:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Royal Brunei Airlines",
+        "iata": "BI",
+        "icao": "RBA"
+      },
+      "flight": {
+        "number": "97",
+        "iata": "BI97",
+        "icao": "RBA97",
         "codeshared": null
       },
       "aircraft": null,
@@ -146,7 +411,7 @@
     },
     {
       "flight_date": "2025-05-23",
-      "flight_status": "scheduled",
+      "flight_status": "active",
       "departure": {
         "airport": "Haneda Airport",
         "timezone": "Asia/Tokyo",
@@ -154,7 +419,7 @@
         "icao": "RJTT",
         "terminal": "3",
         "gate": "108B",
-        "delay": 25,
+        "delay": 15,
         "scheduled": "2025-05-23T00:20:00+00:00",
         "estimated": "2025-05-23T00:20:00+00:00",
         "actual": null,
@@ -199,7 +464,7 @@
     },
     {
       "flight_date": "2025-05-23",
-      "flight_status": "scheduled",
+      "flight_status": "active",
       "departure": {
         "airport": "Haneda Airport",
         "timezone": "Asia/Tokyo",
@@ -207,7 +472,7 @@
         "icao": "RJTT",
         "terminal": "3",
         "gate": "108B",
-        "delay": 25,
+        "delay": 15,
         "scheduled": "2025-05-23T00:20:00+00:00",
         "estimated": "2025-05-23T00:20:00+00:00",
         "actual": null,
@@ -502,6 +767,667 @@
       "live": null
     },
     {
+      "flight_date": "2025-05-23",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Indira Gandhi International",
+        "timezone": "Asia/Kolkata",
+        "iata": "DEL",
+        "icao": "VIDP",
+        "terminal": "T3",
+        "gate": "8",
+        "delay": null,
+        "scheduled": "2025-05-23T02:00:00+00:00",
+        "estimated": "2025-05-23T02:00:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Heathrow",
+        "timezone": "Europe/London",
+        "iata": "LHR",
+        "icao": "EGLL",
+        "terminal": "2",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-05-23T07:30:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Singapore Airlines",
+        "iata": "SQ",
+        "icao": "SIA"
+      },
+      "flight": {
+        "number": "4921",
+        "iata": "SQ4921",
+        "icao": "SIA4921",
+        "codeshared": {
+          "airline_name": "air india",
+          "airline_iata": "ai",
+          "airline_icao": "aic",
+          "flight_number": "161",
+          "flight_iata": "ai161",
+          "flight_icao": "aic161"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-05-23",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Indira Gandhi International",
+        "timezone": "Asia/Kolkata",
+        "iata": "DEL",
+        "icao": "VIDP",
+        "terminal": "T3",
+        "gate": "8",
+        "delay": null,
+        "scheduled": "2025-05-23T02:00:00+00:00",
+        "estimated": "2025-05-23T02:00:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Heathrow",
+        "timezone": "Europe/London",
+        "iata": "LHR",
+        "icao": "EGLL",
+        "terminal": "2",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-05-23T07:30:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "TAP Air Portugal",
+        "iata": "TP",
+        "icao": "TAP"
+      },
+      "flight": {
+        "number": "7023",
+        "iata": "TP7023",
+        "icao": "TAP7023",
+        "codeshared": {
+          "airline_name": "air india",
+          "airline_iata": "ai",
+          "airline_icao": "aic",
+          "flight_number": "161",
+          "flight_iata": "ai161",
+          "flight_icao": "aic161"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-05-23",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Indira Gandhi International",
+        "timezone": "Asia/Kolkata",
+        "iata": "DEL",
+        "icao": "VIDP",
+        "terminal": "T3",
+        "gate": "8",
+        "delay": null,
+        "scheduled": "2025-05-23T02:00:00+00:00",
+        "estimated": "2025-05-23T02:00:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Heathrow",
+        "timezone": "Europe/London",
+        "iata": "LHR",
+        "icao": "EGLL",
+        "terminal": "2",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-05-23T07:30:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Air India",
+        "iata": "AI",
+        "icao": "AIC"
+      },
+      "flight": {
+        "number": "161",
+        "iata": "AI161",
+        "icao": "AIC161",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-05-23",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Indira Gandhi International",
+        "timezone": "Asia/Kolkata",
+        "iata": "DEL",
+        "icao": "VIDP",
+        "terminal": "T3",
+        "gate": "19",
+        "delay": null,
+        "scheduled": "2025-05-23T02:05:00+00:00",
+        "estimated": "2025-05-23T02:05:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Heathrow",
+        "timezone": "Europe/London",
+        "iata": "LHR",
+        "icao": "EGLL",
+        "terminal": "3",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-05-23T07:20:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Virgin Atlantic",
+        "iata": "VS",
+        "icao": "VIR"
+      },
+      "flight": {
+        "number": "303",
+        "iata": "VS303",
+        "icao": "VIR303",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-05-23",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Indira Gandhi International",
+        "timezone": "Asia/Kolkata",
+        "iata": "DEL",
+        "icao": "VIDP",
+        "terminal": "T3",
+        "gate": "19",
+        "delay": null,
+        "scheduled": "2025-05-23T02:05:00+00:00",
+        "estimated": "2025-05-23T02:05:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Heathrow",
+        "timezone": "Europe/London",
+        "iata": "LHR",
+        "icao": "EGLL",
+        "terminal": "3",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-05-23T07:20:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Vietnam Airlines",
+        "iata": "VN",
+        "icao": "HVN"
+      },
+      "flight": {
+        "number": "3193",
+        "iata": "VN3193",
+        "icao": "HVN3193",
+        "codeshared": {
+          "airline_name": "virgin atlantic",
+          "airline_iata": "vs",
+          "airline_icao": "vir",
+          "flight_number": "303",
+          "flight_iata": "vs303",
+          "flight_icao": "vir303"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-05-23",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Indira Gandhi International",
+        "timezone": "Asia/Kolkata",
+        "iata": "DEL",
+        "icao": "VIDP",
+        "terminal": "T3",
+        "gate": "19",
+        "delay": null,
+        "scheduled": "2025-05-23T02:05:00+00:00",
+        "estimated": "2025-05-23T02:05:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Heathrow",
+        "timezone": "Europe/London",
+        "iata": "LHR",
+        "icao": "EGLL",
+        "terminal": "3",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-05-23T07:20:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Delta Air Lines",
+        "iata": "DL",
+        "icao": "DAL"
+      },
+      "flight": {
+        "number": "5949",
+        "iata": "DL5949",
+        "icao": "DAL5949",
+        "codeshared": {
+          "airline_name": "virgin atlantic",
+          "airline_iata": "vs",
+          "airline_icao": "vir",
+          "flight_number": "303",
+          "flight_iata": "vs303",
+          "flight_icao": "vir303"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-05-23",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Suvarnabhumi International",
+        "timezone": "Asia/Bangkok",
+        "iata": "BKK",
+        "icao": "VTBS",
+        "terminal": null,
+        "gate": null,
+        "delay": 19,
+        "scheduled": "2025-05-23T00:30:00+00:00",
+        "estimated": "2025-05-23T00:30:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Heathrow",
+        "timezone": "Europe/London",
+        "iata": "LHR",
+        "icao": "EGLL",
+        "terminal": "2",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-05-23T07:15:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Air Canada",
+        "iata": "AC",
+        "icao": "ACA"
+      },
+      "flight": {
+        "number": "7401",
+        "iata": "AC7401",
+        "icao": "ACA7401",
+        "codeshared": {
+          "airline_name": "thai airways international",
+          "airline_iata": "tg",
+          "airline_icao": "tha",
+          "flight_number": "910",
+          "flight_iata": "tg910",
+          "flight_icao": "tha910"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-05-23",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Bole International",
+        "timezone": "Africa/Addis_Ababa",
+        "iata": "ADD",
+        "icao": "HAAB",
+        "terminal": "2",
+        "gate": "A19",
+        "delay": null,
+        "scheduled": "2025-05-23T00:45:00+00:00",
+        "estimated": "2025-05-23T00:45:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Heathrow",
+        "timezone": "Europe/London",
+        "iata": "LHR",
+        "icao": "EGLL",
+        "terminal": "2",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-05-23T07:00:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "ANA",
+        "iata": "NH",
+        "icao": "ANA"
+      },
+      "flight": {
+        "number": "5354",
+        "iata": "NH5354",
+        "icao": "ANA5354",
+        "codeshared": {
+          "airline_name": "ethiopian airlines",
+          "airline_iata": "et",
+          "airline_icao": "eth",
+          "flight_number": "700",
+          "flight_iata": "et700",
+          "flight_icao": "eth700"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-05-23",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Bole International",
+        "timezone": "Africa/Addis_Ababa",
+        "iata": "ADD",
+        "icao": "HAAB",
+        "terminal": "2",
+        "gate": "A19",
+        "delay": null,
+        "scheduled": "2025-05-23T00:45:00+00:00",
+        "estimated": "2025-05-23T00:45:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Heathrow",
+        "timezone": "Europe/London",
+        "iata": "LHR",
+        "icao": "EGLL",
+        "terminal": "2",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-05-23T07:00:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "TAP Air Portugal",
+        "iata": "TP",
+        "icao": "TAP"
+      },
+      "flight": {
+        "number": "8984",
+        "iata": "TP8984",
+        "icao": "TAP8984",
+        "codeshared": {
+          "airline_name": "ethiopian airlines",
+          "airline_iata": "et",
+          "airline_icao": "eth",
+          "flight_number": "700",
+          "flight_iata": "et700",
+          "flight_icao": "eth700"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-05-23",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Bole International",
+        "timezone": "Africa/Addis_Ababa",
+        "iata": "ADD",
+        "icao": "HAAB",
+        "terminal": "2",
+        "gate": "A19",
+        "delay": null,
+        "scheduled": "2025-05-23T00:45:00+00:00",
+        "estimated": "2025-05-23T00:45:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Heathrow",
+        "timezone": "Europe/London",
+        "iata": "LHR",
+        "icao": "EGLL",
+        "terminal": "2",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-05-23T07:00:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "United Airlines",
+        "iata": "UA",
+        "icao": "UAL"
+      },
+      "flight": {
+        "number": "7210",
+        "iata": "UA7210",
+        "icao": "UAL7210",
+        "codeshared": {
+          "airline_name": "ethiopian airlines",
+          "airline_iata": "et",
+          "airline_icao": "eth",
+          "flight_number": "700",
+          "flight_iata": "et700",
+          "flight_icao": "eth700"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-05-23",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Bole International",
+        "timezone": "Africa/Addis_Ababa",
+        "iata": "ADD",
+        "icao": "HAAB",
+        "terminal": "2",
+        "gate": "A19",
+        "delay": null,
+        "scheduled": "2025-05-23T00:45:00+00:00",
+        "estimated": "2025-05-23T00:45:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Heathrow",
+        "timezone": "Europe/London",
+        "iata": "LHR",
+        "icao": "EGLL",
+        "terminal": "2",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-05-23T07:00:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Ethiopian Airlines",
+        "iata": "ET",
+        "icao": "ETH"
+      },
+      "flight": {
+        "number": "700",
+        "iata": "ET700",
+        "icao": "ETH700",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-05-23",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "King Khaled International",
+        "timezone": "Asia/Riyadh",
+        "iata": "RUH",
+        "icao": "OERK",
+        "terminal": "3",
+        "gate": null,
+        "delay": 3,
+        "scheduled": "2025-05-23T00:35:00+00:00",
+        "estimated": "2025-05-23T00:35:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Heathrow",
+        "timezone": "Europe/London",
+        "iata": "LHR",
+        "icao": "EGLL",
+        "terminal": "5",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-05-23T05:30:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Iberia",
+        "iata": "IB",
+        "icao": "IBE"
+      },
+      "flight": {
+        "number": "3611",
+        "iata": "IB3611",
+        "icao": "IBE3611",
+        "codeshared": {
+          "airline_name": "british airways",
+          "airline_iata": "ba",
+          "airline_icao": "baw",
+          "flight_number": "262",
+          "flight_iata": "ba262",
+          "flight_icao": "baw262"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-05-23",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "King Khaled International",
+        "timezone": "Asia/Riyadh",
+        "iata": "RUH",
+        "icao": "OERK",
+        "terminal": "3",
+        "gate": null,
+        "delay": 3,
+        "scheduled": "2025-05-23T00:35:00+00:00",
+        "estimated": "2025-05-23T00:35:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Heathrow",
+        "timezone": "Europe/London",
+        "iata": "LHR",
+        "icao": "EGLL",
+        "terminal": "5",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-05-23T05:30:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "British Airways",
+        "iata": "BA",
+        "icao": "BAW"
+      },
+      "flight": {
+        "number": "262",
+        "iata": "BA262",
+        "icao": "BAW262",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
       "flight_date": "2025-05-22",
       "flight_status": "landed",
       "departure": {
@@ -653,7 +1579,7 @@
     },
     {
       "flight_date": "2025-05-22",
-      "flight_status": "active",
+      "flight_status": "landed",
       "departure": {
         "airport": "King Khaled International",
         "timezone": "Asia/Riyadh",
@@ -679,9 +1605,9 @@
         "scheduled": "2025-05-22T14:15:00+00:00",
         "delay": null,
         "estimated": "2025-05-22T13:53:00+00:00",
-        "actual": null,
-        "estimated_runway": null,
-        "actual_runway": null
+        "actual": "2025-05-22T13:57:00+00:00",
+        "estimated_runway": "2025-05-22T13:57:00+00:00",
+        "actual_runway": "2025-05-22T13:57:00+00:00"
       },
       "airline": {
         "name": "Saudia",
@@ -700,27 +1626,18 @@
         "icao": "B77W",
         "icao24": "710107"
       },
-      "live": {
-        "updated": "2025-05-22T13:11:10+00:00",
-        "latitude": 51.4774,
-        "longitude": -0.495,
-        "altitude": 22.86,
-        "direction": 89,
-        "speed_horizontal": 275.948,
-        "speed_vertical": 0,
-        "is_ground": false
-      }
+      "live": null
     },
     {
       "flight_date": "2025-05-22",
-      "flight_status": "active",
+      "flight_status": "landed",
       "departure": {
         "airport": "King Khaled International",
         "timezone": "Asia/Riyadh",
         "iata": "RUH",
         "icao": "OERK",
         "terminal": "4",
-        "gate": null,
+        "gate": "403",
         "delay": 12,
         "scheduled": "2025-05-22T09:15:00+00:00",
         "estimated": "2025-05-22T09:15:00+00:00",
@@ -738,10 +1655,10 @@
         "baggage": null,
         "scheduled": "2025-05-22T14:15:00+00:00",
         "delay": null,
-        "estimated": null,
-        "actual": null,
-        "estimated_runway": null,
-        "actual_runway": null
+        "estimated": "2025-05-22T13:53:00+00:00",
+        "actual": "2025-05-22T13:57:00+00:00",
+        "estimated_runway": "2025-05-22T13:57:00+00:00",
+        "actual_runway": "2025-05-22T13:57:00+00:00"
       },
       "airline": {
         "name": "Virgin Atlantic",
@@ -766,14 +1683,14 @@
     },
     {
       "flight_date": "2025-05-22",
-      "flight_status": "active",
+      "flight_status": "landed",
       "departure": {
         "airport": "King Khaled International",
         "timezone": "Asia/Riyadh",
         "iata": "RUH",
         "icao": "OERK",
         "terminal": "4",
-        "gate": null,
+        "gate": "403",
         "delay": 12,
         "scheduled": "2025-05-22T09:15:00+00:00",
         "estimated": "2025-05-22T09:15:00+00:00",
@@ -791,10 +1708,10 @@
         "baggage": null,
         "scheduled": "2025-05-22T14:15:00+00:00",
         "delay": null,
-        "estimated": null,
-        "actual": null,
-        "estimated_runway": null,
-        "actual_runway": null
+        "estimated": "2025-05-22T13:53:00+00:00",
+        "actual": "2025-05-22T13:57:00+00:00",
+        "estimated_runway": "2025-05-22T13:57:00+00:00",
+        "actual_runway": "2025-05-22T13:57:00+00:00"
       },
       "airline": {
         "name": "Delta Air Lines",
@@ -819,7 +1736,7 @@
     },
     {
       "flight_date": "2025-05-22",
-      "flight_status": "active",
+      "flight_status": "landed",
       "departure": {
         "airport": "Haneda Airport",
         "timezone": "Asia/Tokyo",
@@ -841,13 +1758,13 @@
         "icao": "EGLL",
         "terminal": "3",
         "gate": null,
-        "baggage": null,
+        "baggage": "07",
         "scheduled": "2025-05-22T15:50:00+00:00",
         "delay": null,
-        "estimated": null,
-        "actual": null,
-        "estimated_runway": null,
-        "actual_runway": null
+        "estimated": "2025-05-22T15:16:00+00:00",
+        "actual": "2025-05-22T15:17:00+00:00",
+        "estimated_runway": "2025-05-22T15:17:00+00:00",
+        "actual_runway": "2025-05-22T15:17:00+00:00"
       },
       "airline": {
         "name": "LATAM Airlines",
@@ -872,7 +1789,7 @@
     },
     {
       "flight_date": "2025-05-22",
-      "flight_status": "active",
+      "flight_status": "landed",
       "departure": {
         "airport": "Haneda Airport",
         "timezone": "Asia/Tokyo",
@@ -894,13 +1811,13 @@
         "icao": "EGLL",
         "terminal": "3",
         "gate": null,
-        "baggage": null,
+        "baggage": "07",
         "scheduled": "2025-05-22T15:50:00+00:00",
         "delay": null,
-        "estimated": null,
-        "actual": null,
-        "estimated_runway": null,
-        "actual_runway": null
+        "estimated": "2025-05-22T15:16:00+00:00",
+        "actual": "2025-05-22T15:17:00+00:00",
+        "estimated_runway": "2025-05-22T15:17:00+00:00",
+        "actual_runway": "2025-05-22T15:17:00+00:00"
       },
       "airline": {
         "name": "British Airways",
@@ -925,7 +1842,7 @@
     },
     {
       "flight_date": "2025-05-22",
-      "flight_status": "active",
+      "flight_status": "landed",
       "departure": {
         "airport": "Haneda Airport",
         "timezone": "Asia/Tokyo",
@@ -947,13 +1864,13 @@
         "icao": "EGLL",
         "terminal": "3",
         "gate": null,
-        "baggage": null,
+        "baggage": "07",
         "scheduled": "2025-05-22T15:50:00+00:00",
         "delay": null,
-        "estimated": null,
-        "actual": null,
-        "estimated_runway": null,
-        "actual_runway": null
+        "estimated": "2025-05-22T15:16:00+00:00",
+        "actual": "2025-05-22T15:17:00+00:00",
+        "estimated_runway": "2025-05-22T15:17:00+00:00",
+        "actual_runway": "2025-05-22T15:17:00+00:00"
       },
       "airline": {
         "name": "Iberia",
@@ -2709,7 +3626,7 @@
     },
     {
       "flight_date": "2025-05-22",
-      "flight_status": "active",
+      "flight_status": "landed",
       "departure": {
         "airport": "Abu Dhabi International",
         "timezone": "Asia/Dubai",
@@ -2731,13 +3648,13 @@
         "icao": "EGLL",
         "terminal": "4",
         "gate": null,
-        "baggage": null,
+        "baggage": "7",
         "scheduled": "2025-05-22T15:15:00+00:00",
         "delay": null,
-        "estimated": "2025-05-22T14:41:00+00:00",
-        "actual": null,
-        "estimated_runway": null,
-        "actual_runway": null
+        "estimated": "2025-05-22T14:40:00+00:00",
+        "actual": "2025-05-22T14:47:00+00:00",
+        "estimated_runway": "2025-05-22T14:47:00+00:00",
+        "actual_runway": "2025-05-22T14:47:00+00:00"
       },
       "airline": {
         "name": "Etihad Airways",
@@ -2756,20 +3673,11 @@
         "icao": "B789",
         "icao24": "896408"
       },
-      "live": {
-        "updated": "2025-05-22T13:51:34+00:00",
-        "latitude": 51.4809,
-        "longitude": -0.8124,
-        "altitude": 1264.92,
-        "direction": 135,
-        "speed_horizontal": 387.068,
-        "speed_vertical": 0,
-        "is_ground": false
-      }
+      "live": null
     },
     {
       "flight_date": "2025-05-22",
-      "flight_status": "active",
+      "flight_status": "landed",
       "departure": {
         "airport": "Abu Dhabi International",
         "timezone": "Asia/Dubai",
@@ -2791,13 +3699,13 @@
         "icao": "EGLL",
         "terminal": "4",
         "gate": null,
-        "baggage": null,
+        "baggage": "7",
         "scheduled": "2025-05-22T15:15:00+00:00",
         "delay": null,
-        "estimated": null,
-        "actual": null,
-        "estimated_runway": null,
-        "actual_runway": null
+        "estimated": "2025-05-22T14:40:00+00:00",
+        "actual": "2025-05-22T14:47:00+00:00",
+        "estimated_runway": "2025-05-22T14:47:00+00:00",
+        "actual_runway": "2025-05-22T14:47:00+00:00"
       },
       "airline": {
         "name": "TAP Air Portugal",
@@ -2822,7 +3730,7 @@
     },
     {
       "flight_date": "2025-05-22",
-      "flight_status": "active",
+      "flight_status": "landed",
       "departure": {
         "airport": "Abu Dhabi International",
         "timezone": "Asia/Dubai",
@@ -2844,13 +3752,13 @@
         "icao": "EGLL",
         "terminal": "4",
         "gate": null,
-        "baggage": null,
+        "baggage": "7",
         "scheduled": "2025-05-22T15:15:00+00:00",
         "delay": null,
-        "estimated": null,
-        "actual": null,
-        "estimated_runway": null,
-        "actual_runway": null
+        "estimated": "2025-05-22T14:40:00+00:00",
+        "actual": "2025-05-22T14:47:00+00:00",
+        "estimated_runway": "2025-05-22T14:47:00+00:00",
+        "actual_runway": "2025-05-22T14:47:00+00:00"
       },
       "airline": {
         "name": "SAS",
@@ -2875,7 +3783,7 @@
     },
     {
       "flight_date": "2025-05-22",
-      "flight_status": "active",
+      "flight_status": "landed",
       "departure": {
         "airport": "Abu Dhabi International",
         "timezone": "Asia/Dubai",
@@ -2897,13 +3805,13 @@
         "icao": "EGLL",
         "terminal": "4",
         "gate": null,
-        "baggage": null,
+        "baggage": "7",
         "scheduled": "2025-05-22T15:15:00+00:00",
         "delay": null,
-        "estimated": null,
-        "actual": null,
-        "estimated_runway": null,
-        "actual_runway": null
+        "estimated": "2025-05-22T14:40:00+00:00",
+        "actual": "2025-05-22T14:47:00+00:00",
+        "estimated_runway": "2025-05-22T14:47:00+00:00",
+        "actual_runway": "2025-05-22T14:47:00+00:00"
       },
       "airline": {
         "name": "Air New Zealand",
@@ -2928,7 +3836,7 @@
     },
     {
       "flight_date": "2025-05-22",
-      "flight_status": "active",
+      "flight_status": "landed",
       "departure": {
         "airport": "Abu Dhabi International",
         "timezone": "Asia/Dubai",
@@ -2950,13 +3858,13 @@
         "icao": "EGLL",
         "terminal": "4",
         "gate": null,
-        "baggage": null,
+        "baggage": "7",
         "scheduled": "2025-05-22T15:15:00+00:00",
         "delay": null,
-        "estimated": null,
-        "actual": null,
-        "estimated_runway": null,
-        "actual_runway": null
+        "estimated": "2025-05-22T14:40:00+00:00",
+        "actual": "2025-05-22T14:47:00+00:00",
+        "estimated_runway": "2025-05-22T14:47:00+00:00",
+        "actual_runway": "2025-05-22T14:47:00+00:00"
       },
       "airline": {
         "name": "SA AVIANCA",
@@ -2981,7 +3889,7 @@
     },
     {
       "flight_date": "2025-05-22",
-      "flight_status": "active",
+      "flight_status": "landed",
       "departure": {
         "airport": "Abu Dhabi International",
         "timezone": "Asia/Dubai",
@@ -3003,13 +3911,13 @@
         "icao": "EGLL",
         "terminal": "4",
         "gate": null,
-        "baggage": null,
+        "baggage": "7",
         "scheduled": "2025-05-22T15:15:00+00:00",
         "delay": null,
-        "estimated": null,
-        "actual": null,
-        "estimated_runway": null,
-        "actual_runway": null
+        "estimated": "2025-05-22T14:40:00+00:00",
+        "actual": "2025-05-22T14:47:00+00:00",
+        "estimated_runway": "2025-05-22T14:47:00+00:00",
+        "actual_runway": "2025-05-22T14:47:00+00:00"
       },
       "airline": {
         "name": "Air Canada",
@@ -3664,7 +4572,7 @@
     },
     {
       "flight_date": "2025-05-22",
-      "flight_status": "scheduled",
+      "flight_status": "active",
       "departure": {
         "airport": "Kigalin International",
         "timezone": "Africa/Kigali",
@@ -3672,12 +4580,12 @@
         "icao": "HRYR",
         "terminal": null,
         "gate": null,
-        "delay": 10,
+        "delay": 26,
         "scheduled": "2025-05-22T09:00:00+00:00",
         "estimated": "2025-05-22T09:00:00+00:00",
-        "actual": null,
-        "estimated_runway": null,
-        "actual_runway": null
+        "actual": "2025-05-22T09:25:00+00:00",
+        "estimated_runway": "2025-05-22T09:25:00+00:00",
+        "actual_runway": "2025-05-22T09:25:00+00:00"
       },
       "arrival": {
         "airport": "Heathrow",
@@ -3689,7 +4597,7 @@
         "baggage": null,
         "scheduled": "2025-05-22T17:30:00+00:00",
         "delay": null,
-        "estimated": null,
+        "estimated": "2025-05-22T17:19:00+00:00",
         "actual": null,
         "estimated_runway": null,
         "actual_runway": null
@@ -3712,12 +4620,12 @@
         "icao24": "06E00F"
       },
       "live": {
-        "updated": "2025-05-22T14:05:51+00:00",
-        "latitude": 37.2116,
-        "longitude": 6.2124,
+        "updated": "2025-05-22T15:44:55+00:00",
+        "latitude": 49.3618,
+        "longitude": 2.4926,
         "altitude": 12192,
-        "direction": 356,
-        "speed_horizontal": 859.328,
+        "direction": 333.55,
+        "speed_horizontal": 810.864,
         "speed_vertical": 0,
         "is_ground": false
       }
@@ -3987,7 +4895,7 @@
     },
     {
       "flight_date": "2025-05-22",
-      "flight_status": "active",
+      "flight_status": "landed",
       "departure": {
         "airport": "Nnamdi Azikiwe International Airport",
         "timezone": "Africa/Lagos",
@@ -4009,13 +4917,13 @@
         "icao": "EGLL",
         "terminal": "5",
         "gate": null,
-        "baggage": null,
+        "baggage": "10",
         "scheduled": "2025-05-22T14:30:00+00:00",
         "delay": null,
         "estimated": "2025-05-22T14:03:00+00:00",
-        "actual": null,
-        "estimated_runway": null,
-        "actual_runway": null
+        "actual": "2025-05-22T14:02:00+00:00",
+        "estimated_runway": "2025-05-22T14:02:00+00:00",
+        "actual_runway": "2025-05-22T14:02:00+00:00"
       },
       "airline": {
         "name": "British Airways",
@@ -4034,20 +4942,11 @@
         "icao": "B772",
         "icao24": "4005BE"
       },
-      "live": {
-        "updated": "2025-05-22T13:11:10+00:00",
-        "latitude": 51.4769,
-        "longitude": -0.6475,
-        "altitude": 579.12,
-        "direction": 89,
-        "speed_horizontal": 353.732,
-        "speed_vertical": 0,
-        "is_ground": false
-      }
+      "live": null
     },
     {
       "flight_date": "2025-05-22",
-      "flight_status": "active",
+      "flight_status": "landed",
       "departure": {
         "airport": "Nnamdi Azikiwe International Airport",
         "timezone": "Africa/Lagos",
@@ -4069,13 +4968,13 @@
         "icao": "EGLL",
         "terminal": "5",
         "gate": null,
-        "baggage": null,
+        "baggage": "10",
         "scheduled": "2025-05-22T14:30:00+00:00",
         "delay": null,
-        "estimated": null,
-        "actual": null,
-        "estimated_runway": null,
-        "actual_runway": null
+        "estimated": "2025-05-22T14:03:00+00:00",
+        "actual": "2025-05-22T14:02:00+00:00",
+        "estimated_runway": "2025-05-22T14:02:00+00:00",
+        "actual_runway": "2025-05-22T14:02:00+00:00"
       },
       "airline": {
         "name": "Finnair",
@@ -4100,7 +4999,7 @@
     },
     {
       "flight_date": "2025-05-22",
-      "flight_status": "active",
+      "flight_status": "landed",
       "departure": {
         "airport": "Kuwait International",
         "timezone": "Asia/Kuwait",
@@ -4122,13 +5021,13 @@
         "icao": "EGLL",
         "terminal": "4",
         "gate": null,
-        "baggage": null,
+        "baggage": "6",
         "scheduled": "2025-05-22T14:45:00+00:00",
         "delay": null,
-        "estimated": "2025-05-22T14:21:00+00:00",
-        "actual": null,
-        "estimated_runway": null,
-        "actual_runway": null
+        "estimated": "2025-05-22T14:13:00+00:00",
+        "actual": "2025-05-22T14:19:00+00:00",
+        "estimated_runway": "2025-05-22T14:19:00+00:00",
+        "actual_runway": "2025-05-22T14:19:00+00:00"
       },
       "airline": {
         "name": "Kuwait Airways",
@@ -4147,16 +5046,7 @@
         "icao": "B77W",
         "icao24": "706059"
       },
-      "live": {
-        "updated": "2025-05-22T13:27:33+00:00",
-        "latitude": 51.4769,
-        "longitude": -0.6461,
-        "altitude": 579.12,
-        "direction": 89,
-        "speed_horizontal": 314.84,
-        "speed_vertical": 0,
-        "is_ground": false
-      }
+      "live": null
     },
     {
       "flight_date": "2025-05-22",
@@ -4310,949 +5200,6 @@
           "flight_number": "1427",
           "flight_iata": "ba1427",
           "flight_icao": "baw1427"
-        }
-      },
-      "aircraft": null,
-      "live": null
-    },
-    {
-      "flight_date": "2025-05-22",
-      "flight_status": "landed",
-      "departure": {
-        "airport": "George Best Belfast City",
-        "timezone": "Europe/London",
-        "iata": "BHD",
-        "icao": "EGAC",
-        "terminal": null,
-        "gate": null,
-        "delay": 5,
-        "scheduled": "2025-05-22T06:35:00+00:00",
-        "estimated": "2025-05-22T06:35:00+00:00",
-        "actual": "2025-05-22T06:39:00+00:00",
-        "estimated_runway": "2025-05-22T06:39:00+00:00",
-        "actual_runway": "2025-05-22T06:39:00+00:00"
-      },
-      "arrival": {
-        "airport": "Heathrow",
-        "timezone": "Europe/London",
-        "iata": "LHR",
-        "icao": "EGLL",
-        "terminal": "5",
-        "gate": null,
-        "baggage": "2",
-        "scheduled": "2025-05-22T08:00:00+00:00",
-        "delay": null,
-        "estimated": "2025-05-22T07:29:00+00:00",
-        "actual": "2025-05-22T07:30:00+00:00",
-        "estimated_runway": "2025-05-22T07:30:00+00:00",
-        "actual_runway": "2025-05-22T07:30:00+00:00"
-      },
-      "airline": {
-        "name": "Qantas",
-        "iata": "QF",
-        "icao": "QFA"
-      },
-      "flight": {
-        "number": "3550",
-        "iata": "QF3550",
-        "icao": "QFA3550",
-        "codeshared": {
-          "airline_name": "british airways",
-          "airline_iata": "ba",
-          "airline_icao": "baw",
-          "flight_number": "1427",
-          "flight_iata": "ba1427",
-          "flight_icao": "baw1427"
-        }
-      },
-      "aircraft": null,
-      "live": null
-    },
-    {
-      "flight_date": "2025-05-22",
-      "flight_status": "landed",
-      "departure": {
-        "airport": "George Best Belfast City",
-        "timezone": "Europe/London",
-        "iata": "BHD",
-        "icao": "EGAC",
-        "terminal": null,
-        "gate": null,
-        "delay": 5,
-        "scheduled": "2025-05-22T06:35:00+00:00",
-        "estimated": "2025-05-22T06:35:00+00:00",
-        "actual": "2025-05-22T06:39:00+00:00",
-        "estimated_runway": "2025-05-22T06:39:00+00:00",
-        "actual_runway": "2025-05-22T06:39:00+00:00"
-      },
-      "arrival": {
-        "airport": "Heathrow",
-        "timezone": "Europe/London",
-        "iata": "LHR",
-        "icao": "EGLL",
-        "terminal": "5",
-        "gate": null,
-        "baggage": "2",
-        "scheduled": "2025-05-22T08:00:00+00:00",
-        "delay": null,
-        "estimated": "2025-05-22T07:29:00+00:00",
-        "actual": "2025-05-22T07:30:00+00:00",
-        "estimated_runway": "2025-05-22T07:30:00+00:00",
-        "actual_runway": "2025-05-22T07:30:00+00:00"
-      },
-      "airline": {
-        "name": "Malaysia Airlines",
-        "iata": "MH",
-        "icao": "MAS"
-      },
-      "flight": {
-        "number": "9715",
-        "iata": "MH9715",
-        "icao": "MAS9715",
-        "codeshared": {
-          "airline_name": "british airways",
-          "airline_iata": "ba",
-          "airline_icao": "baw",
-          "flight_number": "1427",
-          "flight_iata": "ba1427",
-          "flight_icao": "baw1427"
-        }
-      },
-      "aircraft": null,
-      "live": null
-    },
-    {
-      "flight_date": "2025-05-22",
-      "flight_status": "landed",
-      "departure": {
-        "airport": "George Best Belfast City",
-        "timezone": "Europe/London",
-        "iata": "BHD",
-        "icao": "EGAC",
-        "terminal": null,
-        "gate": null,
-        "delay": 5,
-        "scheduled": "2025-05-22T06:35:00+00:00",
-        "estimated": "2025-05-22T06:35:00+00:00",
-        "actual": "2025-05-22T06:39:00+00:00",
-        "estimated_runway": "2025-05-22T06:39:00+00:00",
-        "actual_runway": "2025-05-22T06:39:00+00:00"
-      },
-      "arrival": {
-        "airport": "Heathrow",
-        "timezone": "Europe/London",
-        "iata": "LHR",
-        "icao": "EGLL",
-        "terminal": "5",
-        "gate": null,
-        "baggage": "2",
-        "scheduled": "2025-05-22T08:00:00+00:00",
-        "delay": null,
-        "estimated": "2025-05-22T07:29:00+00:00",
-        "actual": "2025-05-22T07:30:00+00:00",
-        "estimated_runway": "2025-05-22T07:30:00+00:00",
-        "actual_runway": "2025-05-22T07:30:00+00:00"
-      },
-      "airline": {
-        "name": "Japan Airlines",
-        "iata": "JL",
-        "icao": "JTL"
-      },
-      "flight": {
-        "number": "7126",
-        "iata": "JL7126",
-        "icao": "JTL7126",
-        "codeshared": {
-          "airline_name": "british airways",
-          "airline_iata": "ba",
-          "airline_icao": "baw",
-          "flight_number": "1427",
-          "flight_iata": "ba1427",
-          "flight_icao": "baw1427"
-        }
-      },
-      "aircraft": null,
-      "live": null
-    },
-    {
-      "flight_date": "2025-05-22",
-      "flight_status": "landed",
-      "departure": {
-        "airport": "George Best Belfast City",
-        "timezone": "Europe/London",
-        "iata": "BHD",
-        "icao": "EGAC",
-        "terminal": null,
-        "gate": null,
-        "delay": 5,
-        "scheduled": "2025-05-22T06:35:00+00:00",
-        "estimated": "2025-05-22T06:35:00+00:00",
-        "actual": "2025-05-22T06:39:00+00:00",
-        "estimated_runway": "2025-05-22T06:39:00+00:00",
-        "actual_runway": "2025-05-22T06:39:00+00:00"
-      },
-      "arrival": {
-        "airport": "Heathrow",
-        "timezone": "Europe/London",
-        "iata": "LHR",
-        "icao": "EGLL",
-        "terminal": "5",
-        "gate": null,
-        "baggage": "2",
-        "scheduled": "2025-05-22T08:00:00+00:00",
-        "delay": null,
-        "estimated": "2025-05-22T07:29:00+00:00",
-        "actual": "2025-05-22T07:30:00+00:00",
-        "estimated_runway": "2025-05-22T07:30:00+00:00",
-        "actual_runway": "2025-05-22T07:30:00+00:00"
-      },
-      "airline": {
-        "name": "Iberia",
-        "iata": "IB",
-        "icao": "IBE"
-      },
-      "flight": {
-        "number": "3728",
-        "iata": "IB3728",
-        "icao": "IBE3728",
-        "codeshared": {
-          "airline_name": "british airways",
-          "airline_iata": "ba",
-          "airline_icao": "baw",
-          "flight_number": "1427",
-          "flight_iata": "ba1427",
-          "flight_icao": "baw1427"
-        }
-      },
-      "aircraft": null,
-      "live": null
-    },
-    {
-      "flight_date": "2025-05-22",
-      "flight_status": "landed",
-      "departure": {
-        "airport": "George Best Belfast City",
-        "timezone": "Europe/London",
-        "iata": "BHD",
-        "icao": "EGAC",
-        "terminal": null,
-        "gate": null,
-        "delay": 5,
-        "scheduled": "2025-05-22T06:35:00+00:00",
-        "estimated": "2025-05-22T06:35:00+00:00",
-        "actual": "2025-05-22T06:39:00+00:00",
-        "estimated_runway": "2025-05-22T06:39:00+00:00",
-        "actual_runway": "2025-05-22T06:39:00+00:00"
-      },
-      "arrival": {
-        "airport": "Heathrow",
-        "timezone": "Europe/London",
-        "iata": "LHR",
-        "icao": "EGLL",
-        "terminal": "5",
-        "gate": null,
-        "baggage": "2",
-        "scheduled": "2025-05-22T08:00:00+00:00",
-        "delay": null,
-        "estimated": "2025-05-22T07:29:00+00:00",
-        "actual": "2025-05-22T07:30:00+00:00",
-        "estimated_runway": "2025-05-22T07:30:00+00:00",
-        "actual_runway": "2025-05-22T07:30:00+00:00"
-      },
-      "airline": {
-        "name": "Aer Lingus",
-        "iata": "EI",
-        "icao": "EIN"
-      },
-      "flight": {
-        "number": "8317",
-        "iata": "EI8317",
-        "icao": "EIN8317",
-        "codeshared": {
-          "airline_name": "british airways",
-          "airline_iata": "ba",
-          "airline_icao": "baw",
-          "flight_number": "1427",
-          "flight_iata": "ba1427",
-          "flight_icao": "baw1427"
-        }
-      },
-      "aircraft": null,
-      "live": null
-    },
-    {
-      "flight_date": "2025-05-22",
-      "flight_status": "landed",
-      "departure": {
-        "airport": "George Best Belfast City",
-        "timezone": "Europe/London",
-        "iata": "BHD",
-        "icao": "EGAC",
-        "terminal": null,
-        "gate": null,
-        "delay": 5,
-        "scheduled": "2025-05-22T06:35:00+00:00",
-        "estimated": "2025-05-22T06:35:00+00:00",
-        "actual": "2025-05-22T06:39:00+00:00",
-        "estimated_runway": "2025-05-22T06:39:00+00:00",
-        "actual_runway": "2025-05-22T06:39:00+00:00"
-      },
-      "arrival": {
-        "airport": "Heathrow",
-        "timezone": "Europe/London",
-        "iata": "LHR",
-        "icao": "EGLL",
-        "terminal": "5",
-        "gate": null,
-        "baggage": "2",
-        "scheduled": "2025-05-22T08:00:00+00:00",
-        "delay": null,
-        "estimated": "2025-05-22T07:29:00+00:00",
-        "actual": "2025-05-22T07:30:00+00:00",
-        "estimated_runway": "2025-05-22T07:30:00+00:00",
-        "actual_runway": "2025-05-22T07:30:00+00:00"
-      },
-      "airline": {
-        "name": "American Airlines",
-        "iata": "AA",
-        "icao": "AAL"
-      },
-      "flight": {
-        "number": "6881",
-        "iata": "AA6881",
-        "icao": "AAL6881",
-        "codeshared": {
-          "airline_name": "british airways",
-          "airline_iata": "ba",
-          "airline_icao": "baw",
-          "flight_number": "1427",
-          "flight_iata": "ba1427",
-          "flight_icao": "baw1427"
-        }
-      },
-      "aircraft": null,
-      "live": null
-    },
-    {
-      "flight_date": "2025-05-22",
-      "flight_status": "landed",
-      "departure": {
-        "airport": "D\u00fcsseldorf International Airport",
-        "timezone": "Europe/Berlin",
-        "iata": "DUS",
-        "icao": "EDDL",
-        "terminal": null,
-        "gate": "C36",
-        "delay": 5,
-        "scheduled": "2025-05-22T07:10:00+00:00",
-        "estimated": "2025-05-22T07:10:00+00:00",
-        "actual": "2025-05-22T07:15:00+00:00",
-        "estimated_runway": "2025-05-22T07:15:00+00:00",
-        "actual_runway": "2025-05-22T07:15:00+00:00"
-      },
-      "arrival": {
-        "airport": "Heathrow",
-        "timezone": "Europe/London",
-        "iata": "LHR",
-        "icao": "EGLL",
-        "terminal": "5",
-        "gate": null,
-        "baggage": "4",
-        "scheduled": "2025-05-22T07:40:00+00:00",
-        "delay": null,
-        "estimated": "2025-05-22T07:21:00+00:00",
-        "actual": "2025-05-22T07:22:00+00:00",
-        "estimated_runway": "2025-05-22T07:22:00+00:00",
-        "actual_runway": "2025-05-22T07:22:00+00:00"
-      },
-      "airline": {
-        "name": "British Airways",
-        "iata": "BA",
-        "icao": "BAW"
-      },
-      "flight": {
-        "number": "943",
-        "iata": "BA943",
-        "icao": "BAW943",
-        "codeshared": null
-      },
-      "aircraft": {
-        "registration": "G-TTNM",
-        "iata": "A20N",
-        "icao": "A20N",
-        "icao24": "407930"
-      },
-      "live": null
-    },
-    {
-      "flight_date": "2025-05-22",
-      "flight_status": "landed",
-      "departure": {
-        "airport": "D\u00fcsseldorf International Airport",
-        "timezone": "Europe/Berlin",
-        "iata": "DUS",
-        "icao": "EDDL",
-        "terminal": null,
-        "gate": "C36",
-        "delay": 5,
-        "scheduled": "2025-05-22T07:10:00+00:00",
-        "estimated": "2025-05-22T07:10:00+00:00",
-        "actual": "2025-05-22T07:15:00+00:00",
-        "estimated_runway": "2025-05-22T07:15:00+00:00",
-        "actual_runway": "2025-05-22T07:15:00+00:00"
-      },
-      "arrival": {
-        "airport": "Heathrow",
-        "timezone": "Europe/London",
-        "iata": "LHR",
-        "icao": "EGLL",
-        "terminal": "5",
-        "gate": null,
-        "baggage": "4",
-        "scheduled": "2025-05-22T07:40:00+00:00",
-        "delay": null,
-        "estimated": "2025-05-22T07:21:00+00:00",
-        "actual": "2025-05-22T07:22:00+00:00",
-        "estimated_runway": "2025-05-22T07:22:00+00:00",
-        "actual_runway": "2025-05-22T07:22:00+00:00"
-      },
-      "airline": {
-        "name": "JetBlue Airways",
-        "iata": "B6",
-        "icao": "JBU"
-      },
-      "flight": {
-        "number": "6261",
-        "iata": "B66261",
-        "icao": "JBU6261",
-        "codeshared": {
-          "airline_name": "british airways",
-          "airline_iata": "ba",
-          "airline_icao": "baw",
-          "flight_number": "943",
-          "flight_iata": "ba943",
-          "flight_icao": "baw943"
-        }
-      },
-      "aircraft": null,
-      "live": null
-    },
-    {
-      "flight_date": "2025-05-22",
-      "flight_status": "landed",
-      "departure": {
-        "airport": "D\u00fcsseldorf International Airport",
-        "timezone": "Europe/Berlin",
-        "iata": "DUS",
-        "icao": "EDDL",
-        "terminal": null,
-        "gate": "C36",
-        "delay": 5,
-        "scheduled": "2025-05-22T07:10:00+00:00",
-        "estimated": "2025-05-22T07:10:00+00:00",
-        "actual": "2025-05-22T07:15:00+00:00",
-        "estimated_runway": "2025-05-22T07:15:00+00:00",
-        "actual_runway": "2025-05-22T07:15:00+00:00"
-      },
-      "arrival": {
-        "airport": "Heathrow",
-        "timezone": "Europe/London",
-        "iata": "LHR",
-        "icao": "EGLL",
-        "terminal": "5",
-        "gate": null,
-        "baggage": "4",
-        "scheduled": "2025-05-22T07:40:00+00:00",
-        "delay": null,
-        "estimated": "2025-05-22T07:21:00+00:00",
-        "actual": "2025-05-22T07:22:00+00:00",
-        "estimated_runway": "2025-05-22T07:22:00+00:00",
-        "actual_runway": "2025-05-22T07:22:00+00:00"
-      },
-      "airline": {
-        "name": "Qatar Airways",
-        "iata": "QR",
-        "icao": "QTR"
-      },
-      "flight": {
-        "number": "5923",
-        "iata": "QR5923",
-        "icao": "QTR5923",
-        "codeshared": {
-          "airline_name": "british airways",
-          "airline_iata": "ba",
-          "airline_icao": "baw",
-          "flight_number": "943",
-          "flight_iata": "ba943",
-          "flight_icao": "baw943"
-        }
-      },
-      "aircraft": null,
-      "live": null
-    },
-    {
-      "flight_date": "2025-05-22",
-      "flight_status": "landed",
-      "departure": {
-        "airport": "D\u00fcsseldorf International Airport",
-        "timezone": "Europe/Berlin",
-        "iata": "DUS",
-        "icao": "EDDL",
-        "terminal": null,
-        "gate": "C36",
-        "delay": 5,
-        "scheduled": "2025-05-22T07:10:00+00:00",
-        "estimated": "2025-05-22T07:10:00+00:00",
-        "actual": "2025-05-22T07:15:00+00:00",
-        "estimated_runway": "2025-05-22T07:15:00+00:00",
-        "actual_runway": "2025-05-22T07:15:00+00:00"
-      },
-      "arrival": {
-        "airport": "Heathrow",
-        "timezone": "Europe/London",
-        "iata": "LHR",
-        "icao": "EGLL",
-        "terminal": "5",
-        "gate": null,
-        "baggage": "4",
-        "scheduled": "2025-05-22T07:40:00+00:00",
-        "delay": null,
-        "estimated": "2025-05-22T07:21:00+00:00",
-        "actual": "2025-05-22T07:22:00+00:00",
-        "estimated_runway": "2025-05-22T07:22:00+00:00",
-        "actual_runway": "2025-05-22T07:22:00+00:00"
-      },
-      "airline": {
-        "name": "Japan Airlines",
-        "iata": "JL",
-        "icao": "JTL"
-      },
-      "flight": {
-        "number": "7780",
-        "iata": "JL7780",
-        "icao": "JTL7780",
-        "codeshared": {
-          "airline_name": "british airways",
-          "airline_iata": "ba",
-          "airline_icao": "baw",
-          "flight_number": "943",
-          "flight_iata": "ba943",
-          "flight_icao": "baw943"
-        }
-      },
-      "aircraft": null,
-      "live": null
-    },
-    {
-      "flight_date": "2025-05-22",
-      "flight_status": "landed",
-      "departure": {
-        "airport": "D\u00fcsseldorf International Airport",
-        "timezone": "Europe/Berlin",
-        "iata": "DUS",
-        "icao": "EDDL",
-        "terminal": null,
-        "gate": "C36",
-        "delay": 5,
-        "scheduled": "2025-05-22T07:10:00+00:00",
-        "estimated": "2025-05-22T07:10:00+00:00",
-        "actual": "2025-05-22T07:15:00+00:00",
-        "estimated_runway": "2025-05-22T07:15:00+00:00",
-        "actual_runway": "2025-05-22T07:15:00+00:00"
-      },
-      "arrival": {
-        "airport": "Heathrow",
-        "timezone": "Europe/London",
-        "iata": "LHR",
-        "icao": "EGLL",
-        "terminal": "5",
-        "gate": null,
-        "baggage": "4",
-        "scheduled": "2025-05-22T07:40:00+00:00",
-        "delay": null,
-        "estimated": "2025-05-22T07:21:00+00:00",
-        "actual": "2025-05-22T07:22:00+00:00",
-        "estimated_runway": "2025-05-22T07:22:00+00:00",
-        "actual_runway": "2025-05-22T07:22:00+00:00"
-      },
-      "airline": {
-        "name": "American Airlines",
-        "iata": "AA",
-        "icao": "AAL"
-      },
-      "flight": {
-        "number": "7177",
-        "iata": "AA7177",
-        "icao": "AAL7177",
-        "codeshared": {
-          "airline_name": "british airways",
-          "airline_iata": "ba",
-          "airline_icao": "baw",
-          "flight_number": "943",
-          "flight_iata": "ba943",
-          "flight_icao": "baw943"
-        }
-      },
-      "aircraft": null,
-      "live": null
-    },
-    {
-      "flight_date": "2025-05-22",
-      "flight_status": "landed",
-      "departure": {
-        "airport": "Vienna International",
-        "timezone": "Europe/Vienna",
-        "iata": "VIE",
-        "icao": "LOWW",
-        "terminal": "1",
-        "gate": "D24",
-        "delay": 9,
-        "scheduled": "2025-05-22T07:45:00+00:00",
-        "estimated": "2025-05-22T07:45:00+00:00",
-        "actual": "2025-05-22T07:54:00+00:00",
-        "estimated_runway": "2025-05-22T07:54:00+00:00",
-        "actual_runway": "2025-05-22T07:54:00+00:00"
-      },
-      "arrival": {
-        "airport": "Heathrow",
-        "timezone": "Europe/London",
-        "iata": "LHR",
-        "icao": "EGLL",
-        "terminal": "3",
-        "gate": null,
-        "baggage": null,
-        "scheduled": "2025-05-22T09:15:00+00:00",
-        "delay": null,
-        "estimated": "2025-05-22T08:52:00+00:00",
-        "actual": "2025-05-22T08:57:00+00:00",
-        "estimated_runway": "2025-05-22T08:57:00+00:00",
-        "actual_runway": "2025-05-22T08:57:00+00:00"
-      },
-      "airline": {
-        "name": "British Airways",
-        "iata": "BA",
-        "icao": "BAW"
-      },
-      "flight": {
-        "number": "707",
-        "iata": "BA707",
-        "icao": "BAW707",
-        "codeshared": null
-      },
-      "aircraft": {
-        "registration": "G-TTOE",
-        "iata": "A320",
-        "icao": "A320",
-        "icao24": "400960"
-      },
-      "live": null
-    },
-    {
-      "flight_date": "2025-05-22",
-      "flight_status": "landed",
-      "departure": {
-        "airport": "Vienna International",
-        "timezone": "Europe/Vienna",
-        "iata": "VIE",
-        "icao": "LOWW",
-        "terminal": "1",
-        "gate": "D24",
-        "delay": 9,
-        "scheduled": "2025-05-22T07:45:00+00:00",
-        "estimated": "2025-05-22T07:45:00+00:00",
-        "actual": "2025-05-22T07:54:00+00:00",
-        "estimated_runway": "2025-05-22T07:54:00+00:00",
-        "actual_runway": "2025-05-22T07:54:00+00:00"
-      },
-      "arrival": {
-        "airport": "Heathrow",
-        "timezone": "Europe/London",
-        "iata": "LHR",
-        "icao": "EGLL",
-        "terminal": "3",
-        "gate": null,
-        "baggage": null,
-        "scheduled": "2025-05-22T09:15:00+00:00",
-        "delay": null,
-        "estimated": "2025-05-22T08:52:00+00:00",
-        "actual": "2025-05-22T08:57:00+00:00",
-        "estimated_runway": "2025-05-22T08:57:00+00:00",
-        "actual_runway": "2025-05-22T08:57:00+00:00"
-      },
-      "airline": {
-        "name": "Japan Airlines",
-        "iata": "JL",
-        "icao": "JTL"
-      },
-      "flight": {
-        "number": "7864",
-        "iata": "JL7864",
-        "icao": "JTL7864",
-        "codeshared": {
-          "airline_name": "british airways",
-          "airline_iata": "ba",
-          "airline_icao": "baw",
-          "flight_number": "707",
-          "flight_iata": "ba707",
-          "flight_icao": "baw707"
-        }
-      },
-      "aircraft": null,
-      "live": null
-    },
-    {
-      "flight_date": "2025-05-22",
-      "flight_status": "landed",
-      "departure": {
-        "airport": "Vienna International",
-        "timezone": "Europe/Vienna",
-        "iata": "VIE",
-        "icao": "LOWW",
-        "terminal": "1",
-        "gate": "D24",
-        "delay": 9,
-        "scheduled": "2025-05-22T07:45:00+00:00",
-        "estimated": "2025-05-22T07:45:00+00:00",
-        "actual": "2025-05-22T07:54:00+00:00",
-        "estimated_runway": "2025-05-22T07:54:00+00:00",
-        "actual_runway": "2025-05-22T07:54:00+00:00"
-      },
-      "arrival": {
-        "airport": "Heathrow",
-        "timezone": "Europe/London",
-        "iata": "LHR",
-        "icao": "EGLL",
-        "terminal": "3",
-        "gate": null,
-        "baggage": null,
-        "scheduled": "2025-05-22T09:15:00+00:00",
-        "delay": null,
-        "estimated": "2025-05-22T08:52:00+00:00",
-        "actual": "2025-05-22T08:57:00+00:00",
-        "estimated_runway": "2025-05-22T08:57:00+00:00",
-        "actual_runway": "2025-05-22T08:57:00+00:00"
-      },
-      "airline": {
-        "name": "American Airlines",
-        "iata": "AA",
-        "icao": "AAL"
-      },
-      "flight": {
-        "number": "6640",
-        "iata": "AA6640",
-        "icao": "AAL6640",
-        "codeshared": {
-          "airline_name": "british airways",
-          "airline_iata": "ba",
-          "airline_icao": "baw",
-          "flight_number": "707",
-          "flight_iata": "ba707",
-          "flight_icao": "baw707"
-        }
-      },
-      "aircraft": null,
-      "live": null
-    },
-    {
-      "flight_date": "2025-05-22",
-      "flight_status": "landed",
-      "departure": {
-        "airport": "Vienna International",
-        "timezone": "Europe/Vienna",
-        "iata": "VIE",
-        "icao": "LOWW",
-        "terminal": "3",
-        "gate": "G31",
-        "delay": 19,
-        "scheduled": "2025-05-22T07:15:00+00:00",
-        "estimated": "2025-05-22T07:15:00+00:00",
-        "actual": "2025-05-22T07:34:00+00:00",
-        "estimated_runway": "2025-05-22T07:34:00+00:00",
-        "actual_runway": "2025-05-22T07:34:00+00:00"
-      },
-      "arrival": {
-        "airport": "Heathrow",
-        "timezone": "Europe/London",
-        "iata": "LHR",
-        "icao": "EGLL",
-        "terminal": "2",
-        "gate": null,
-        "baggage": "8",
-        "scheduled": "2025-05-22T08:45:00+00:00",
-        "delay": null,
-        "estimated": "2025-05-22T08:38:00+00:00",
-        "actual": "2025-05-22T08:43:00+00:00",
-        "estimated_runway": "2025-05-22T08:43:00+00:00",
-        "actual_runway": "2025-05-22T08:43:00+00:00"
-      },
-      "airline": {
-        "name": "Air Baltic",
-        "iata": "BT",
-        "icao": "BTI"
-      },
-      "flight": {
-        "number": "453",
-        "iata": "BT453",
-        "icao": "BTI453",
-        "codeshared": null
-      },
-      "aircraft": null,
-      "live": null
-    },
-    {
-      "flight_date": "2025-05-22",
-      "flight_status": "landed",
-      "departure": {
-        "airport": "Vienna International",
-        "timezone": "Europe/Vienna",
-        "iata": "VIE",
-        "icao": "LOWW",
-        "terminal": "3",
-        "gate": "G31",
-        "delay": 19,
-        "scheduled": "2025-05-22T07:15:00+00:00",
-        "estimated": "2025-05-22T07:15:00+00:00",
-        "actual": "2025-05-22T07:34:00+00:00",
-        "estimated_runway": "2025-05-22T07:34:00+00:00",
-        "actual_runway": "2025-05-22T07:34:00+00:00"
-      },
-      "arrival": {
-        "airport": "Heathrow",
-        "timezone": "Europe/London",
-        "iata": "LHR",
-        "icao": "EGLL",
-        "terminal": "2",
-        "gate": null,
-        "baggage": "8",
-        "scheduled": "2025-05-22T08:45:00+00:00",
-        "delay": null,
-        "estimated": "2025-05-22T08:38:00+00:00",
-        "actual": "2025-05-22T08:43:00+00:00",
-        "estimated_runway": "2025-05-22T08:43:00+00:00",
-        "actual_runway": "2025-05-22T08:43:00+00:00"
-      },
-      "airline": {
-        "name": "Air Canada",
-        "iata": "AC",
-        "icao": "ACA"
-      },
-      "flight": {
-        "number": "6190",
-        "iata": "AC6190",
-        "icao": "ACA6190",
-        "codeshared": {
-          "airline_name": "air baltic",
-          "airline_iata": "bt",
-          "airline_icao": "bti",
-          "flight_number": "453",
-          "flight_iata": "bt453",
-          "flight_icao": "bti453"
-        }
-      },
-      "aircraft": null,
-      "live": null
-    },
-    {
-      "flight_date": "2025-05-22",
-      "flight_status": "landed",
-      "departure": {
-        "airport": "Abu Dhabi International",
-        "timezone": "Asia/Dubai",
-        "iata": "AUH",
-        "icao": "OMAA",
-        "terminal": "A",
-        "gate": "D43",
-        "delay": 78,
-        "scheduled": "2025-05-22T08:05:00+00:00",
-        "estimated": "2025-05-22T08:05:00+00:00",
-        "actual": "2025-05-22T09:22:00+00:00",
-        "estimated_runway": "2025-05-22T09:22:00+00:00",
-        "actual_runway": "2025-05-22T09:22:00+00:00"
-      },
-      "arrival": {
-        "airport": "Heathrow",
-        "timezone": "Europe/London",
-        "iata": "LHR",
-        "icao": "EGLL",
-        "terminal": "4",
-        "gate": null,
-        "baggage": null,
-        "scheduled": "2025-05-22T12:45:00+00:00",
-        "delay": 42,
-        "estimated": "2025-05-22T13:25:00+00:00",
-        "actual": "2025-05-22T13:27:00+00:00",
-        "estimated_runway": "2025-05-22T13:27:00+00:00",
-        "actual_runway": "2025-05-22T13:27:00+00:00"
-      },
-      "airline": {
-        "name": "TAP Air Portugal",
-        "iata": "TP",
-        "icao": "TAP"
-      },
-      "flight": {
-        "number": "6920",
-        "iata": "TP6920",
-        "icao": "TAP6920",
-        "codeshared": {
-          "airline_name": "etihad airways",
-          "airline_iata": "ey",
-          "airline_icao": "etd",
-          "flight_number": "63",
-          "flight_iata": "ey63",
-          "flight_icao": "etd63"
-        }
-      },
-      "aircraft": null,
-      "live": null
-    },
-    {
-      "flight_date": "2025-05-22",
-      "flight_status": "landed",
-      "departure": {
-        "airport": "Abu Dhabi International",
-        "timezone": "Asia/Dubai",
-        "iata": "AUH",
-        "icao": "OMAA",
-        "terminal": "A",
-        "gate": "D43",
-        "delay": 78,
-        "scheduled": "2025-05-22T08:05:00+00:00",
-        "estimated": "2025-05-22T08:05:00+00:00",
-        "actual": "2025-05-22T09:22:00+00:00",
-        "estimated_runway": "2025-05-22T09:22:00+00:00",
-        "actual_runway": "2025-05-22T09:22:00+00:00"
-      },
-      "arrival": {
-        "airport": "Heathrow",
-        "timezone": "Europe/London",
-        "iata": "LHR",
-        "icao": "EGLL",
-        "terminal": "4",
-        "gate": null,
-        "baggage": null,
-        "scheduled": "2025-05-22T12:45:00+00:00",
-        "delay": 42,
-        "estimated": "2025-05-22T13:25:00+00:00",
-        "actual": "2025-05-22T13:27:00+00:00",
-        "estimated_runway": "2025-05-22T13:27:00+00:00",
-        "actual_runway": "2025-05-22T13:27:00+00:00"
-      },
-      "airline": {
-        "name": "SAS",
-        "iata": "SK",
-        "icao": "SAS"
-      },
-      "flight": {
-        "number": "6550",
-        "iata": "SK6550",
-        "icao": "SAS6550",
-        "codeshared": {
-          "airline_name": "etihad airways",
-          "airline_iata": "ey",
-          "airline_icao": "etd",
-          "flight_number": "63",
-          "flight_iata": "ey63",
-          "flight_icao": "etd63"
         }
       },
       "aircraft": null,
