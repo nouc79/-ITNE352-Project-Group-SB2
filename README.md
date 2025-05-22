@@ -4,6 +4,8 @@
 # Project Description
 In this project, we made a client and server system that shows flight information. The server connects to an API to get flights from an airport, and it can handle many clients at the same time. The client can ask for arrived flights, delayed flights, or details of one flight. I also made a simple GUI using tkinter so the user can click buttons instead of typing in the terminal. 
 
+**Note:** Our project support both GUI and terminal-based clients, each client works independently and connects to the same multithreaded server, because we are three members in the group, each member takes a part to explain to be fair.
+
 **Semester :** Second Semester 2024-2025
 
 - **Group Name:** SB2
