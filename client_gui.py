@@ -50,10 +50,16 @@ entry.pack()
 tk.Button(root, text="Show Arrived Flights", command=get_arrived).pack()
 tk.Button(root, text="Show Delayed Flights", command=get_delayed).pack()
 tk.Button(root, text="Get Flight Details", command=get_details).pack()
+tk.Button(root, text="Quit", command=quit_program).pack()
+
 
 #box to display the server response
 output_box = tk.Text(root, height=15, width=80)
 output_box.pack()
+#close connection to server,close the GUI window
+def quit_program():
+    client_socket.close()
+    root.destroy()     
 
 # Start the GUI loop
 root.mainloop()
